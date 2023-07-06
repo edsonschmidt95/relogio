@@ -52,3 +52,19 @@ main{
     font-size: 60px;
     
 }
+@media (max-width: 600px) {
+    .relogio, .data {
+        height: 150px;
+        width: 350px;
+    }
+    
+    .relogio div, .data div {
+        height: 120px;
+        width: 100px;
+        font-size: 18px;
+    }
+    
+    .relogio span, .data span {
+        font-size: 40px;
+    }
+}
