@@ -32,3 +32,12 @@ const relogio= setInterval(function time(){
     ano.textContent=a;
 
 })
+const colorButtons = document.querySelectorAll('.color-button');
+const body = document.body;
+
+colorButtons.forEach(button => {
+  button.addEventListener('click', function() {
+    const selectedColor = button.getAttribute('data-color');
+    body.style.background = selectedColor;
+  });
+});

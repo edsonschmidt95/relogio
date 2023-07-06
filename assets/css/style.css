@@ -68,3 +68,31 @@ main{
         font-size: 40px;
     }
 }
+.color-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .color-button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Estilize os botões com as cores desejadas */
+  .color-button[data-color="#b4eef5"] {
+    background-color: #b4eef5;
+  }
+  
+  .color-button[data-color="#f86d54"] {
+    background-color: #f86d54;
+  }
+  
+  .color-button[data-color="#e5fd0b"] {
+    background-color: #e5fd0b;
+  }
+  
